@@ -26,7 +26,17 @@ let inputDataDeDevolucao = document.querySelector("#inputDataDeDevolucao");
 
 //Chamar a funcao adiciona com os campos da tela
 
+function adicionaEmprestimo(){
 
+    var emprestimo = {
+        item: 'caderno',
+        dataEmprestimo: '30/11/2018',
+        nome: 'mateus',
+        dataDevolucao: '28/05/2019'
+    }
+    
+    adicionaRegistro( [ emprestimo.item, emprestimo.dataEmprestimo, emprestimo.nome, emprestimo.dataDevolucao ] );
 
+}
 
 
