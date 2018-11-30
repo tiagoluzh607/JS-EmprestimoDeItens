@@ -9,6 +9,7 @@ function logar(){
 
     if(usuario == 'admin' && senha == 'admin'){
         console.log('Logado com sucesso');
+        window.location.href = "emprestimo.html";
     }else{
         console.log('usuario ou senha invalidos');
     }
