@@ -17,3 +17,6 @@ $(document).ready(function() {
 function adicionaRegistro(linha){
     tabela.row.add(linha).draw(false);
 }
+
+//Pegar Elementos Da Tela
+//Chamar a funcao adiciona com os campos da tela
