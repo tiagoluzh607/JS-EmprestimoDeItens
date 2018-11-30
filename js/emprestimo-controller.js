@@ -29,10 +29,10 @@ let inputDataDeDevolucao = document.querySelector("#inputDataDeDevolucao");
 function adicionaEmprestimo(){
 
     var emprestimo = {
-        item: 'caderno',
-        dataEmprestimo: '30/11/2018',
-        nome: 'mateus',
-        dataDevolucao: '28/05/2019'
+        item: inputItem.value,
+        dataEmprestimo: inputDataDeEmprestimo.value,
+        nome: inputNome.value,
+        dataDevolucao: inputDataDeDevolucao.value
     }
     
     adicionaRegistro( [ emprestimo.item, emprestimo.dataEmprestimo, emprestimo.nome, emprestimo.dataDevolucao ] );
