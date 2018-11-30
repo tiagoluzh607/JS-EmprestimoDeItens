@@ -1,9 +1,10 @@
-
+let inputNome = document.querySelector("#inputNome");
+let inputSenha = document.querySelector("#inputSenha");
 
 function logar(){
 
-    let usuario = 'admin';
-    let senha = 'admin';
+    let usuario = inputNome.value;
+    let senha = inputSenha.value;
 
 
     if(usuario == 'admin' && senha == 'admin'){
