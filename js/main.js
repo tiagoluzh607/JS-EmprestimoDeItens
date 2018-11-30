@@ -7,7 +7,8 @@
     [ Validate ]*/
     var input = $('.validate-input .input100');
 
-    $('.validate-form').on('submit',function(){
+    $('.validate-form').on('submit',function(event){
+        event.preventDefault();
         var check = true;
 
         for(var i=0; i<input.length; i++) {
@@ -19,7 +20,7 @@
 
         return check;
     });
-
+    
 
     $('.validate-form .input100').each(function(){
         $(this).focus(function(){

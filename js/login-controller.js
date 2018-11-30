@@ -7,7 +7,7 @@ function logar(){
     let senha = inputSenha.value;
 
 
-    if(usuario == 'admin' && senha == 'admin'){
+    if(usuario == 'admin@gmail.com' && senha == 'admin'){
         console.log('Logado com sucesso');
         window.location.href = "emprestimo.html";
     }else{
