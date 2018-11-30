@@ -1,0 +1,1 @@
+console.log('Aqui eh JS na veia no Controller');
