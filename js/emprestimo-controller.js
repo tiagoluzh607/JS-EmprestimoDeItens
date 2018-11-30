@@ -19,4 +19,14 @@ function adicionaRegistro(linha){
 }
 
 //Pegar Elementos Da Tela
+let inputItem = document.querySelector("#inputItem");
+let inputDataDeEmprestimo = document.querySelector("#inputDataDeEmprestimo");
+let inputNome = document.querySelector("#inputNome");
+let inputDataDeDevolucao = document.querySelector("#inputDataDeDevolucao");
+
 //Chamar a funcao adiciona com os campos da tela
+
+
+
+
+
